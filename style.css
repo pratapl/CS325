@@ -1,0 +1,181 @@
+/*
+ * Style.css style sheet
+ * CS325 Project 0
+ * Peter, Stephen, Terrence, Pratap
+ */
+
+body {
+	display: block;
+	font-family: Palatino;
+	height:100%;
+	background-color:green;
+}
+
+.blueBackground {
+	position: relative;
+    margin-left:auto;
+	margin-right: auto;
+	background-color: lightgrey;
+	border-radius: 10px;
+	width:80%;
+}
+
+.whiteText{
+	color: white;
+}
+
+header {
+    text-align: center;
+	font-style: oblique;
+}
+
+nav {
+    text-align: center;
+    padding: 0px;
+	margin-bottom: 100px;
+}
+
+nav ul {
+	padding:0px;	
+}
+
+nav ul li {
+	background-color: #451847;
+	display:inline;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:0px;
+	margin:0px;
+	width: 16.666%;
+	float: left;
+}
+
+nav ul li a{
+	color: white;
+	display:block; 
+	width:100%;
+    text-decoration: none;
+}
+
+
+#content{
+float:right;
+width:80%;
+top:25%;
+height:60%;
+}
+
+
+aside{
+	margin-top: 7px;
+	padding: 0px;
+	float: left;
+	background-color: #451847;
+	position:fixed;
+	width:13.2%;
+	top:23%;
+	height:65%;
+}
+aside p a {
+	color: white;
+	display:block; 
+	width:100%;
+    text-decoration: none;
+}
+
+aside h2 {
+	color: white;
+	display:block; 
+	width:100%;
+    text-align: center;
+}
+
+.selectedTab {
+	background-color: #FF6600;
+}
+
+table {
+    border: 1px solid black;
+    
+    max-width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    width: 20%;
+	text-align: center;
+}
+
+h1 {
+    padding-bottom:0px;
+	padding-top:5px;
+    font-size: 250%;
+}
+
+
+h2 {
+	margin-top:5px;
+}
+
+p {
+	margin:10px;
+}
+
+ol {
+    clear: both;
+}
+
+
+.preferred {
+	background-color: yellow;
+}
+
+.othello_img {
+    float:left;
+	width:250px;
+	margin-right:15px;
+	margin-left:5px;
+}
+
+.navList {
+	padding: 0px;
+}
+
+footer {
+	clear:both;
+    text-align: center;
+	top:85%;
+	height: 15%;
+	width:100%;
+}
+
+.image{
+	height:200px;
+	width: 49%;
+	z-index:0;
+}
+.image2{
+	height:200px;
+	width: 33%;
+	z-index:0;
+}		
+#tux{
+	position:absolute;
+	width :25%;
+	top: 30%;
+	left: 45%;
+	z-index:1;
+	opacity: 0.7;
+}
+
+#ms{
+	position: absolute;
+	top:60%;
+	left: 35%;
+	z-index:2;
+	opacity: 0.7;
+}
+
+#gray {
+	background-color: lightgray;
+}
